@@ -18,7 +18,7 @@ pipeline {
             steps {
                 echo 'Testing application'
 
-                bat 'findstr /C:"Welcome to My DevOps Project" app/index.html'
+                bat 'findstr /C:"Welcome to My DevOps Project" app\\index.html'
             }
         }
 
